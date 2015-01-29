@@ -8,3 +8,22 @@ entrer la commande git add suivi du nom du fichier afin d'indexer le fichier.
 effectuer la commande git commit -m "message" permet de valider le programme  avec "message" servant a apporter des indications.
 saisir la commande git remote add origin url du dossier de destination sur GitHub afin d'envoyer la fichier sur le dépot GitHub.
 enfin, entrer la commande git push -u origin master pour pouvoir pousser le fichier vers sa destination.
+
+
+
+Travailler sur un projet déja hébergé chez github !
+   
+Tout d'abord il faut disposer d'un dépot hebergé chez github .
+la première commande à mettre dans le termainal est : git init "nomdufichier"   
+git init permet de définir le dossier ou il faudra venir chercher le fichier.
+la deuxième commande : cd /chemin , exemple : cd /home/etudiant/Documents/zyad
+cela permet de se placer dans le dossier , exemple ici , se placer dans le dossier zyad
+troisième commande : git clone [url du site]permet de cloner le fichier et de le télécharger en local pour pouvoir
+travailler dessus!!
+Quatrième commande : git commit -m "message" , Attention ici le message es toujours obligatoire!
+cette commande permet de valider le contenu du programme
+cinquième commande : git remote add origin url du dossier de destination sur github
+cette commande permet d'envoyer le fichier sur le dépot.
+6 ème commande : git push origin master
+cette commande permet de pousser le fichier vers sa destination
+ensuite il ne reste plus qu'a entrer le login et le mot de passe .
